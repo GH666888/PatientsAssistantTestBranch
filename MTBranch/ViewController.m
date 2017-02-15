@@ -21,6 +21,12 @@
     masL.text = @"初始化 label";
     self.view.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:masL];
+    
+    
+    UILabel *masL1 = [[UILabel alloc] initWithFrame:CGRectMake(10, 30, 200, 80)];
+    masL1.text = @"master 创建的 label";
+    [self.view addSubview:masL1];
+
 
 }
 
