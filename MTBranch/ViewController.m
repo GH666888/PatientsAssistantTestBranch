@@ -22,6 +22,11 @@
     self.view.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:masL];
 
+    
+    UILabel *branL = [[UILabel alloc] initWithFrame:CGRectMake(10, 30, 200, 80)];
+    branL.text = @"branch1创建的 label";
+    [self.view addSubview:branL];
+
 }
 
 - (void)didReceiveMemoryWarning {
