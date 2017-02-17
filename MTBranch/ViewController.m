@@ -27,6 +27,7 @@
     masL1.text = @"master 创建的 label";
     [self.view addSubview:masL1];
 
+    NSLog(@"新增 android");
 
 }
 
